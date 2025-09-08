@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+function convert()
+{ var c,f
+f=document.form1.text1.value
+c=((f-32)/9.0)*5.0
+document.form1.text2.vlue=c
+}
+function convert1()
+{var c,f
+c=document.form1.text3.value
+f=((9*c)+160)/5.0
+document.form1.text4.value=f
+}
+</script>
+</head>
+<body>
+<h3>Tempreture conversion</h3>
+<form nmae=form1>
+Fahrenheit<input type=text name=text1>
+<input type=button value="convert" onClick=convert1()>
+cesius<inputt type=text name=text2><br><br>
+Celsius<input type=text name=text3><input type=button value="convert onClick=convert()>
+Fahrenheit<inut type=text name=text4<br>
+</form>
+</body></html>
